@@ -221,8 +221,8 @@ function submit() {
 		}
 		loader.addClass('done');
 	};
-	// xhr.open("POST", "https://api.leadinghao.me/covid_detection", true);
-	xhr.open("POST", "http://localhost:8000/predict", true);
+	xhr.open("POST", "https://api.imjordan.me/predict", true);
+	// xhr.open("POST", "http://localhost:8000/predict", true);
 	xhr.send(formData);
 }
 
